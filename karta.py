@@ -144,7 +144,8 @@ class Game:
             self.talia.remove(x)
         self.krupier.check_sum(self.talia)
 
-print("Beniamin Kozyra")
+#print("Beniamin Kozyra")
+print("test2")
 # Beniamin Kozyra - rozpoczącie rozgrywki
 #def start(ilosc_graczy,bilans):
 #    deck = Talia()
