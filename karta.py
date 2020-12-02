@@ -151,6 +151,7 @@ class Game:
 #    for i in range(ilosc_graczy):
 #        tablica_graczy.append(Player(bilans[i]))
 
+
 #    krupier = Krupier()
 #    return Game(deck.talia, tablica_graczy, krupier)
     #gracz1.dodaj_karte(deck.talia)
