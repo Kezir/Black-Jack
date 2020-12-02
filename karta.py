@@ -144,13 +144,13 @@ class Game:
             self.talia.remove(x)
         self.krupier.check_sum(self.talia)
 
+print("Beniamin Kozyra")
 # Beniamin Kozyra - rozpoczącie rozgrywki
 #def start(ilosc_graczy,bilans):
 #    deck = Talia()
 #    tablica_graczy = []
 #    for i in range(ilosc_graczy):
 #        tablica_graczy.append(Player(bilans[i]))
-
 
 #    krupier = Krupier()
 #    return Game(deck.talia, tablica_graczy, krupier)
