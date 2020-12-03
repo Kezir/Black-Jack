@@ -139,7 +139,7 @@ def licz(game):
 
 
 def start(tura,game):
-    board = Image.open(karta.resource_path("board.png"))
+    board = Image.open(karta.resource_path("Assets/board.png"))
     board = board.resize((610, 510), Image.ANTIALIAS)
     temp2 = 260
     k = 70

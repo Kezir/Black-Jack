@@ -34,7 +34,6 @@ class Karta:
 class Talia:
     def __init__(self):
         self.talia = []
-        self.temp = []
         self.build()
         self.tasowanie()
 
@@ -145,16 +144,15 @@ class Game:
         self.krupier.check_sum(self.talia)
 
 #print("Beniamin Kozyra")
-print("test2")
 # Beniamin Kozyra - rozpoczącie rozgrywki
-#def start(ilosc_graczy,bilans):
-#    deck = Talia()
-#    tablica_graczy = []
-#    for i in range(ilosc_graczy):
-#        tablica_graczy.append(Player(bilans[i]))
+def start(ilosc_graczy,bilans):
+    deck = Talia()
+    tablica_graczy = []
+    for i in range(ilosc_graczy):
+        tablica_graczy.append(Player(bilans[i]))
 
-#    krupier = Krupier()
-#    return Game(deck.talia, tablica_graczy, krupier)
+    krupier = Krupier()
+    return Game(deck.talia, tablica_graczy, krupier)
     #gracz1.dodaj_karte(deck.talia)
     #gracz1.show()
     #print(gracz1.busted)
